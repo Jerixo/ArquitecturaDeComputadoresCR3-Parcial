@@ -8,7 +8,8 @@ Este directorio contiene la implementación central de un simulador de pipeline 
 - [`isa.py`](isa.py): Define el **conjunto de instrucciones (ISA)**, codificación y decodificación de instrucciones, así como su ejecución.
 - [`pipeline.py`](pipeline.py): Implementa el **simulador del pipeline de 5 etapas** (IF, ID, EX, MEM, WB) y el control general del flujo de instrucciones.
 - [`test_pipeline.py`](test_pipeline_forwarding.py): Conjunto de **pruebas** para validar el funcionamiento del pipeline, incluyendo casos de hazards y operaciones de memoria.
-
+- Carpeta `diagramas/`: Contiene **diagramas explicativos** sobre el funcionamiento interno de los módulos, el flujo del pipeline y los mecanismos de resolución de hazards, útiles para complementar la comprensión del simulador.
+  
 ---
 
 ## Conceptos Clave Demostrados
