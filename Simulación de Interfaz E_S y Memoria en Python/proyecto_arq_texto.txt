@@ -1,0 +1,76 @@
+                          UNIVERSIDAD SERGIO ARBOLEDA
+
+                 Proyecto Final de semestre Arquitectura de Computadores
+                                Docente: Oscar Andrés Arias.
+
+Nombre: ___________________________________________ Fecha: _______________
+
+
+Objetivos del Proyecto
+   • Aplicar conceptos de jerarquía de memoria y organización de procesadores (ILP, pipeline,
+       VLIW).
+   • Diseñar y construir un modelo simplificado de arquitectura de computador que incluya
+       unidad aritmético-lógica, memoria caché e interfaces de E/S.
+   • Evaluar el rendimiento mediante microbenchmarks propios y compararlos con variantes
+       de diseño.
+   • Desarrollar competencias de trabajo en equipo, documentación técnica y presentación
+       de resultados.
+
+Descripción General
+Cada grupo (máximo 4 integrantes) deberá diseñar, implementar y evaluar un simulador de
+pipeline de procesador con las siguientes características mínimas:
+     • ISA básica: Conjunto de instrucciones para aritmética entera (suma, resta,
+        multiplicación), carga/almacenamiento y saltos condicionales.
+     • Pipeline de 5 etapas: IF, ID, EX, MEM, WB; detección y resolución de hazards (stalling y
+        forwarding).
+     • Memoria caché: Simulación de caché de mapeo directo y asociativo (2-way),
+        parametrizable (tamaño de bloque y número de líneas).
+     • Interfaz E/S: Simular I/O programada e interrupciones para la lectura de datos de un
+        dispositivo ficticio.
+     • Benchmarks: Conjunto de al menos tres programas de prueba (e.g., acceso a memoria
+        secuencial, acceso aleatorio, cómputo aritmético intensivo).
+El simulador puede implementarse en C, C++ o Python, haciendo énfasis en claridad de diseño y
+eficiencia.
+
+Roles y Organización del Grupo
+Líder de Proyecto: Coordina reuniones, gestiona cronograma y asegura cumplimiento de
+entregables.
+Arquitecto de CPU: Diseña el pipeline, control de hazards y estructuración de la ISA.
+Especialista en Memoria y E/S: Implementa la simulación de caché y los mecanismos de E/S e
+interrupciones.
+Analista y Documentador: Desarrolla y ejecuta benchmarks; redacta informe y prepara la
+presentación.
+Recomendación: roten las responsabilidades en diseño y pruebas para fomentar el aprendizaje
+cruzado.
+
+Entregables y Pautas de Formato
+Propuesta de Diseño (15% de la nota)
+   • Documento de 2–3 páginas con diagrama del pipeline, especificación de la ISA, esquema
+       de caché e I/O.
+
+Código Fuente (30%)
+   • Repositorio (Git/GitHub) organizado: carpetas separadas para CPU, memoria, I/O y tests.
+   • Comentarios claros y README con instrucciones de compilación/ejecución.
+
+Informe Final (35%)
+    • Máximo 12 páginas (Times New Roman 11 pt, 1.5 interlineado).
+    • Contenido: resumen ejecutivo, descripción de diseño, metodología de benchmarks,
+      resultados (tablas/diagramas), análisis de rendimiento y conclusiones.
+    • Anexos: fragmentos de código relevantes, scripts de prueba.
+
+Presentación Oral (20%)
+   • 10–12 minutos por grupo + 3 min de preguntas.
+   • Diapositivas claras: motivación, esquema de arquitectura, resultados comparativos y
+      lecciones aprendidas.
+
+Criterios de Evaluación
+      Componente          Peso                              Criterios Clave
+ Propuesta de Diseño      15%    Claridad de objetivos, corrección de diagramas, factibilidad técnica
+                                 Funcionalidad completa, manejo de hazards, parametrización de
+ Implementación           30%
+                                 caché y E/S
+                                 Organización, calidad de análisis de resultados, interpretación de
+ Informe Técnico          35%
+                                 métricas
+ Presentación             20%    Comunicación efectiva, dominio del tema, respuestas a preguntas
+

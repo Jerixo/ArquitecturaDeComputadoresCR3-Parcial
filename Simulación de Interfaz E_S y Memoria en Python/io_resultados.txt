@@ -1,0 +1,35 @@
+
+=== Iniciando E/S Programada ===
+No hay datos disponibles en el dispositivo 'sensor_temp'
+No hay datos disponibles en el dispositivo 'sensor_temp'
+[Polling] Temperatura: 17.61°C
+No hay datos disponibles en el dispositivo 'sensor_temp'
+[Polling] Temperatura: 16.24°C
+No hay datos disponibles en el dispositivo 'sensor_temp'
+[Polling] Temperatura: 21.24°C
+No hay datos disponibles en el dispositivo 'sensor_temp'
+[Polling] Temperatura: 20.78°C
+No hay datos disponibles en el dispositivo 'sensor_temp'
+=== Fin de E/S Programada ===
+
+
+=== Iniciando E/S por Interrupciones ===
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 25.14°C
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 25.47°C
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 23.94°C
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 18.01°C
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 30.30°C
+=== Fin de E/S por Interrupciones ===
+
+
+=== Estadísticas de E/S ===
+Lecturas obtenidas mediante E/S programada: 4
+Lecturas obtenidas mediante E/S por interrupciones: 5
+E/S programada - Temperatura mín: 16.24°C, máx: 21.24°C, promedio: 18.97°C
+E/S interrupciones - Temperatura mín: 18.01°C, máx: 30.30°C, promedio: 24.57°C
+Simulación finalizada
