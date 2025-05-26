@@ -58,6 +58,7 @@ cd Memoria_E_S
 python io_simulator.py
 ```
 # ¿Qué hace cada simulador?
+
 * Simulador de Pipeline de CPU
 
 * Implementa las 5 etapas clásicas: IF, ID, EX, MEM, WB.
@@ -73,12 +74,12 @@ python io_simulator.py
 # Estructura:
 
 * simulador_pipeline/
-´´´
+```
 ├── pipeline.py # Núcleo del simulador de pipeline
 ├── hazard_control.py # Lógica para detectar y manejar hazards
 ├── isa.py # Definición de operaciones (ISA simulada)
 └── test_pipeline.py # Archivo con pruebas de simulación
-´´´
+```
 
 # Ejemplo de instrucciones cargadas:
 
