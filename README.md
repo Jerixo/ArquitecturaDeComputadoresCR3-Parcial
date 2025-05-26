@@ -9,13 +9,13 @@ Diseñar, implementar y analizar simuladores educativos que representen el funci
 # Objetivos Específicos
 Simular el pipeline clásico de 5 etapas de una CPU, incluyendo la gestión de hazards mediante forwarding y stalling.
 
-Modelar una memoria caché configurable que permita observar el impacto de diferentes políticas de reemplazo y tipos de acceso.
+* Modelar una memoria caché configurable que permita observar el impacto de diferentes políticas de reemplazo y tipos de acceso.
 
-Comparar el rendimiento de E/S programada (polling) frente a E/S por interrupciones en una situación controlada.
+* Comparar el rendimiento de E/S programada (polling) frente a E/S por interrupciones en una situación controlada.
 
-Presentar resultados medibles como CPI, tasa de aciertos, tiempo de respuesta, entre otros.
+* Presentar resultados medibles como CPI, tasa de aciertos, tiempo de respuesta, entre otros.
 
-Documentar todo el proyecto con instrucciones claras, pruebas de ejecución, comentarios explicativos y análisis de resultados.
+* Documentar todo el proyecto con instrucciones claras, pruebas de ejecución, comentarios explicativos y análisis de resultados.
 
 # Estructura del Proyecto
 ```
