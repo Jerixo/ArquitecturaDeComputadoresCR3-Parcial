@@ -178,7 +178,6 @@ Resultados para asociativo por conjuntos:
   Tasa de aciertos: 5.00%
 ```
 # Simulador de E/S
-Compara polling vs interrupciones en un entorno simulado.
 
 Usa un sensor de temperatura que genera datos.
 
@@ -187,10 +186,41 @@ Mide el tiempo promedio de respuesta en cada modo.
 # Resultado esperado:
 
 ```
-Modo polling:
-  Tiempo de respuesta promedio: 5 ms
-Modo interrupciones:
-  Tiempo de respuesta promedio: 2 ms
+=== Iniciando E/S Programada ===
+No hay datos disponibles en el dispositivo 'sensor_temp'
+No hay datos disponibles en el dispositivo 'sensor_temp'
+[Polling] Temperatura: 26.22°C
+No hay datos disponibles en el dispositivo 'sensor_temp'
+[Polling] Temperatura: 29.70°C
+No hay datos disponibles en el dispositivo 'sensor_temp'
+[Polling] Temperatura: 21.65°C
+No hay datos disponibles en el dispositivo 'sensor_temp'
+Dispositivo 'sensor_temp' no está listo
+Dispositivo 'sensor_temp' no está listo
+=== Fin de E/S Programada ===
+
+
+=== Iniciando E/S por Interrupciones ===
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 26.83°C
+[Interrupción] Temperatura: 23.38°C
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 22.50°C
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 30.22°C
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 25.30°C
+CPU realizando otras tareas...
+[Interrupción] Temperatura: 30.51°C
+=== Fin de E/S por Interrupciones ===
+
+
+=== Estadísticas de E/S ===
+Lecturas obtenidas mediante E/S programada: 3
+Lecturas obtenidas mediante E/S por interrupciones: 6
+E/S programada - Temperatura mín: 21.65°C, máx: 29.70°C, promedio: 25.86°C
+E/S interrupciones - Temperatura mín: 22.50°C, máx: 30.51°C, promedio: 26.46°C
+Simulación finalizada
 ```
 # Resultados Generales
 Módulo	Métrica Principal	Resultado (Ejemplo)
