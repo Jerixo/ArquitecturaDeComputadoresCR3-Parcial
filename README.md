@@ -136,11 +136,46 @@ Instrucciones decodificadas:
 # Ejemplo de salida:
 
 ```
-Caché de mapeo directo:
+=== Simulación de Caché ===
+Tamaño de bloque: 4 palabras
+Caché de mapeo directo: 16 líneas
+Caché asociativa por conjuntos: 8 conjuntos (2-way = 16 líneas)
+
+Ejemplo 1: Acceso secuencial a 32 direcciones
+Resultados para mapeo directo:
   Accesos: 32
   Aciertos: 24
   Fallos: 8
-  Tasa de acierto: 75%
+  Tasa de aciertos: 75.00%
+Resultados para asociativo por conjuntos:
+  Accesos: 32
+  Aciertos: 24
+  Fallos: 8
+  Tasa de aciertos: 75.00%
+
+Ejemplo 2: Acceso con localidad espacial
+Resultados para mapeo directo:
+  Accesos: 250
+  Aciertos: 150
+  Fallos: 100
+  Tasa de aciertos: 60.00%
+Resultados para asociativo por conjuntos:
+  Accesos: 250
+  Aciertos: 153
+  Fallos: 97
+  Tasa de aciertos: 61.20%
+
+Ejemplo 3: Acceso aleatorio a 100 direcciones
+Resultados para mapeo directo:
+  Accesos: 100
+  Aciertos: 5
+  Fallos: 95
+  Tasa de aciertos: 5.00%
+Resultados para asociativo por conjuntos:
+  Accesos: 100
+  Aciertos: 5
+  Fallos: 95
+  Tasa de aciertos: 5.00%
 ```
 # Simulador de E/S
 Compara polling vs interrupciones en un entorno simulado.
