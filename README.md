@@ -7,7 +7,7 @@ Este proyecto reúne dos simuladores diseñados con el fin para entender concept
 Diseñar, implementar y analizar simuladores educativos que representen el funcionamiento de diferentes componentes de una arquitectura de computador (CPU con pipeline, memoria caché y E/S), facilitando la comprensión de sus procesos internos, rendimiento e interacción.
 
 # Objetivos Específicos
-Simular el pipeline clásico de 5 etapas de una CPU, incluyendo la gestión de hazards mediante forwarding y stalling.
+* Simular el pipeline clásico de 5 etapas de una CPU, incluyendo la gestión de hazards mediante forwarding y stalling.
 
 * Modelar una memoria caché configurable que permita observar el impacto de diferentes políticas de reemplazo y tipos de acceso.
 
