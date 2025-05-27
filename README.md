@@ -37,7 +37,8 @@ proyecto_arquitectura/
 │   ├── io_resultados.txt
 │
 ├── README.md  
-└── Informe_Proyecto_Final_Arquitectura.docx  
+└── Informe_Proyecto_Final_Arquitectura.docx
+└── Proyecto_presentaciones.pptx
 ```
 # Instrucciones de Ejecución
 Asegúrate de tener Python 3 instalado. Desde terminal, navega a la carpeta del simulador que deseas probar y ejecuta los archivos según el caso:
